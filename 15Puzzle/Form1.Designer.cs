@@ -245,6 +245,7 @@
             this.Controls.Add(this.PuzzleButton1);
             this.Name = "Form1";
             this.Text = "15 Puzzle";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
