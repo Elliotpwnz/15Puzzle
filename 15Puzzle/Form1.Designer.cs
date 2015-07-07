@@ -243,6 +243,8 @@
             this.Controls.Add(this.PuzzleButton3);
             this.Controls.Add(this.PuzzleButton2);
             this.Controls.Add(this.PuzzleButton1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "15 Puzzle";
             this.Load += new System.EventHandler(this.Form1_Load);

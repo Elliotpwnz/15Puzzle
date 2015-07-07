@@ -6,3 +6,4 @@ C:\Users\elliot.simpson\Documents\Development Workspace\C#\15Puzzle\15Puzzle\obj
 C:\Users\elliot.simpson\Documents\Development Workspace\C#\15Puzzle\15Puzzle\obj\x86\Debug\15Puzzle.exe.licenses
 C:\Users\elliot.simpson\Documents\Development Workspace\C#\15Puzzle\15Puzzle\obj\x86\Debug\15Puzzle.exe
 C:\Users\elliot.simpson\Documents\Development Workspace\C#\15Puzzle\15Puzzle\obj\x86\Debug\15Puzzle.pdb
+C:\Users\elliot.simpson\Documents\Development Workspace\C#\15Puzzle\15Puzzle\obj\x86\Debug\15Puzzle.csprojResolveAssemblyReference.cache
