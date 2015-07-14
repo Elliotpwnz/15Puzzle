@@ -44,6 +44,7 @@
             this.PuzzleButton16 = new Infragistics.Win.Misc.UltraButton();
             this.PuzzleButton14 = new Infragistics.Win.Misc.UltraButton();
             this.PuzzleButton15 = new Infragistics.Win.Misc.UltraButton();
+            this.resetButton = new Infragistics.Win.Misc.UltraButton();
             this.SuspendLayout();
             // 
             // PuzzleButton1
@@ -222,11 +223,23 @@
             this.PuzzleButton15.Text = "15";
             this.PuzzleButton15.Click += new System.EventHandler(this.PuzzleButton15_Click);
             // 
+            // resetButton
+            // 
+            this.resetButton.AcceptsFocus = false;
+            this.resetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resetButton.Location = new System.Drawing.Point(133, 363);
+            this.resetButton.Name = "resetButton";
+            this.resetButton.Size = new System.Drawing.Size(121, 42);
+            this.resetButton.TabIndex = 15;
+            this.resetButton.Text = "RESET";
+            this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 363);
+            this.ClientSize = new System.Drawing.Size(397, 417);
+            this.Controls.Add(this.resetButton);
             this.Controls.Add(this.PuzzleButton15);
             this.Controls.Add(this.PuzzleButton14);
             this.Controls.Add(this.PuzzleButton16);
@@ -270,6 +283,7 @@
         private Infragistics.Win.Misc.UltraButton PuzzleButton16;
         private Infragistics.Win.Misc.UltraButton PuzzleButton14;
         private Infragistics.Win.Misc.UltraButton PuzzleButton15;
+        private Infragistics.Win.Misc.UltraButton resetButton;
     }
 }
 

@@ -162,5 +162,14 @@ namespace _15Puzzle
             }
         }
 
+        private void resetButton_Click(object sender, EventArgs e)
+        {
+            Random r = new Random();
+            for (int i = 0; i < 100000; i++)
+            {
+                doClick(r.Next(16));
+            }
+        }
+
     }
 }
